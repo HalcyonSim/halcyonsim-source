@@ -1,0 +1,25 @@
+baseurl = "https://halcyonsim.org/"
+languageCode = "en-us"
+title = "HalcyonSim VR Server"
+theme = "halcyonsim2018"
+publishdir = ".live-dev"
+
+IgnoreFiles = [
+	"\\.kate-swp$",
+]
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Ricky Curtice"
+	description = "HalcyonSim VR Server"
+
+	# Enable Google Analytics by inserting your tracking code
+	#googleAnalytics = ""
+
+	#backendhost = "//10.0.2.13:8788"
+
+	[params.copyright]
+		copyrights = [
+			"Copyright 2019, Richard Curtice",
+		]
